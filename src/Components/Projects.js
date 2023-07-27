@@ -26,11 +26,11 @@ export default function Projects() {
               className="sm:w-full w-100 p-5">
               <div className="flex relative">
 
-              <img
+              {/*<img 
                   alt="gallery"
                   className="relative w-64 object-scale-down object-center mr-2"
                   src={project.image}
-          />
+          />*/}
 
                 <div className="px-8 py-10 relative z-0 w-full border-4 border-white-800 opacity-100">
                   <a href = {project.link}>

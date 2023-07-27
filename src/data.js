@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "MERN Stack",
     description:
       "A fully-functional web application that helps Singaporeans to compare car renting prices among the established car renting services in Singapore. ",
-    image: "./CC_rental_Home.png",
+    image: "./public/CC_rental_Home.png",
     link: "https://github.com/keenlim/SC2006-Project",
   },
   {
