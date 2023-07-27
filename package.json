@@ -1,6 +1,7 @@
 {
   "name": "keen-portfolio-app",
   "version": "0.1.0",
+  "homepage" : "https://keenlim.github.io/my-portfolio",
   "private": true,
   "dependencies": {
     "@heroicons/react": "^1.0.6",
