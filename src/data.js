@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "MERN Stack",
     description:
       "A fully-functional web application that helps Singaporeans to compare car renting prices among the established car renting services in Singapore. ",
-    image: "./public/CC_rental_Home.png",
+    image: "../public/CC_rental_Home.png",
     link: "https://github.com/keenlim/SC2006-Project",
   },
   {
@@ -13,7 +13,7 @@ export const projects = [
     description:
       "A non-GUI application that helps to computerise the processes of making online booking and purchase of movie tickets, listing of movies and sale reporting. This was designed for both movie goers and cinema staff.",
     image: "./MOBILMA.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/keenlim/SC2002-Project",
   },
   {
     title: "Classification and Detection of Disaster Tweets",
