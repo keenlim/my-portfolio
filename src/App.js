@@ -12,9 +12,9 @@ export default function App() {
     <main className="text-gray-400 bg-gray-900 body-font">
       <Navbar />
       <Routes>
-        <Route path = "/" element = {<About/>} />
-        <Route path = "/projects" element = {<Projects />}/>
-        <Route path = "/skills" element = {<Skills />}/>
+        <Route path = "/my-portfolio/" element = {<About/>} />
+        <Route path = "/my-portfolio/projects" element = {<Projects />}/>
+        <Route path = "/my-portfolio/skills" element = {<Skills />}/>
       </Routes>
     </main>
 
