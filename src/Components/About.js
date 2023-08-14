@@ -10,7 +10,7 @@ function About(){
         <section id="about">
             <div className = "container mx-auto flex px-10 py-20 md:flex-row flex-col items-center h-screen">
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                    <div className = "introduction title-font mb-4 font-medium text-white">
+                    <div className = "introduction title-font mb-4 font-medium text-white flex justify-center items-center sm:text-5xl text-3xl">
                         {sentence.map((letter,index) =>{
                             return(
                                 <TextSpan key={index}>
@@ -20,7 +20,7 @@ function About(){
                         })}
                     </div>
 
-                    <h2 className = "title-font sm:text-3xl text-2xl text-amber-100 font-light tracking-wide mb-5">
+                    <h2 className = "title-font sm:text-2xl text-xl text-amber-100 font-light tracking-wide mb-5">
                         <Typewriter
                             options = {{
                                 autoStart : true,

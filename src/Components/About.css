@@ -1,14 +1,3 @@
-.introduction{
-    display: flex;
-    justify-content: center;
-    align-items: center
-}
-
-.introduction span{
-    display: inline-block;
-    font-size: 5rem;
-}
-
 .introduction span:hover{
     color: rgb(252, 248, 3)
 }
